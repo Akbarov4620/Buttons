@@ -1,0 +1,50 @@
+.grow:hover {
+  transform: scale(1.1);
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: #fff;
+  margin: 50px;
+  padding: 20px;
+  font-size: 24px;
+  background-color: grey;
+  display: inline-block;
+  transition: 0.5s ease;
+}
+
+.buttons {
+  margin: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+}
+
+.shrink:hover {
+  transform: scale(0.8);
+}
+
+.rotate:hover {
+  transform: rotate(10deg);
+}
+
+.grow_rotate:hover {
+  transform: rotate(10deg) scale(1.1);
+}
+
+.sink:hover {
+  transform: translateY(10px);
+}
+
+.skew:hover {
+  transform: skewY(10deg);
+}
+
+.forward:hover {
+  transform: translateX(10px);
+}
+
+.backward:hover {
+  transform: translateX(-10px);
+}/*# sourceMappingURL=main.css.map */
